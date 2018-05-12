@@ -117,6 +117,9 @@ namespace OIS
 		bool grabKeyboard;
 		bool keyFocusLost;
 
+		int capsLockMask;
+		int numLockMask;
+
 		std::string mGetString;
 	};
 }
